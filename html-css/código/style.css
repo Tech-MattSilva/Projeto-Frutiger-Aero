@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+
+.titulo-principal {
+    font-family: Arial;
+    font-size: 35pt;
+    color: aquamarine;
+    text-shadow: 2px 2px 2px black;
+}
+
+.titulo-pag2 {
+    font-family: Arial;
+    font-size: 35pt;
+    color: aqua;
+    text-shadow: 2px 2px 2px black;
+}
+
+.titulo-pag3 {
+    font-family: Arial;
+    font-size: 35pt;
+    color: green;
+    text-shadow: 2px 2px 2px black;
+}
+
+.titulo-pag4 {
+    font-family: Arial;
+    font-size: 35pt;
+    color: palevioletred;
+    text-shadow: 2px 2px 2px black;
+}
+
+.titulo-pag5 {
+    font-family: Arial;
+    font-size: 35pt;
+    color: rgb(25, 25, 230);
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    font-family: Arial Bold;
+    font-size: 22pt;
+    color: black;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 15pt;
+    color: gray;
+}
+
+li {
+    font-family: Arial;
+    color: gray;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 3%
+}
+
+.conteudo__principal__sessao {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+}
+
+.conteudo__principal__sessao__textos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 715px;
+
+   
+    
+}
