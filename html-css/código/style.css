@@ -47,7 +47,7 @@ body {
 }
 
 h2 {
-    font-family: Arial Bold;
+    font-family: Arial;
     font-size: 22pt;
     color: black;
 }
@@ -66,7 +66,7 @@ li {
 .conteudo-principal {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
     margin: 3%
 }
 
@@ -83,7 +83,79 @@ li {
     align-items: center;
     justify-content: space-between;
     width: 715px;
+}
 
-   
-    
+.galeria-imagens-frutiger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.galeria-imagens-frutiger img {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #55c5c9e8;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #010108;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.galeria-imagens-frutiger img:hover {
+    transform: scale(1.03);
+}
+
+.conteudo__principal__sessao img {
+    border: 2px solid #55c5c9e8;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #010108;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.como-entrar-no-mundo {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.loja-frutiger-aero {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.canais-e-musicas {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.games-frutiger-aero {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.ads-and-commercials {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.outros-temas-frutiger {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.audios {
+    display: flex;
+    flex-direction: column;
+    gap: 35px; 
 }
